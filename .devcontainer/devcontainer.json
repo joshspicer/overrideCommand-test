@@ -1,5 +1,5 @@
 {
-  "image": "ghcr.io/<user>/codespace",
+  "build": { "dockerfile": "Dockerfile" },
   "remoteUser": "codespace",
   "runArgs": [
     "--cap-add=SYS_PTRACE",
