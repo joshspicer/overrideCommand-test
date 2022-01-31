@@ -1,13 +1,4 @@
 {
   "build": { "dockerfile": "../Dockerfile" },
-  "remoteUser": "codespace",
-  "runArgs": [
-    "--cap-add=SYS_PTRACE",
-    "--security-opt",
-    "seccomp=unconfined",
-    "--privileged",
-    "--mount",
-    "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind,readonly"
-  ],
   "overrideCommand": false
 } 
