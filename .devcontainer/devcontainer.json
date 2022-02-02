@@ -1,5 +1,7 @@
 {
   "build": { "dockerfile": "../Dockerfile" },
   "overrideCommand": false,
-  "postCreateCommand": [ "echo", "hello, moon!!!" ]
+  "postCreateCommand": [ "echo", "hello, postCreateCommand!!!" ],
+  "postStartCommand": [ "echo", "hello, postStartCommand!!!" ],
+  "postCreateCommand": [ "echo", "hello, postCreateCommand!!!" ]
 } 
