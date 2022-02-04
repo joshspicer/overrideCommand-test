@@ -3,5 +3,4 @@
   "overrideCommand": false,
   "postCreateCommand": [ "echo", "hello, postCreateCommand!!!, Entrypoint PID: $$"  ],
   "postStartCommand": [ "echo", "hello, postStartCommand!!!, Entrypoint PID: $$" ],
-  "postCreateCommand": [ "echo", "hello, postCreateCommand!!!, Entrypoint PID: $$"  ]
 } 
