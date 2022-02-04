@@ -1,2 +1,2 @@
-FROM mcr.microsoft.com/vscode/devcontainers/universal
-ENTRYPOINT echo "Entrypoint PID: $$"
+FROM mcr.microsoft.com/vscode/devcontainers/base
+# ENTRYPOINT echo "Entrypoint PID: $$"
